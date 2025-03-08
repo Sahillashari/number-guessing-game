@@ -11,7 +11,7 @@ def set_difficulty(level):
     st.session_state['max_attempts'] = difficulties[level]
 
 def main():
-    st.title("🎯 Number Guessing Game By Sahil Ali Lashari")
+    st.title("🎯 Number Guessing Game By Sahil Lashari")
     
     if 'min_range' not in st.session_state:
         st.session_state['min_range'] = 1
